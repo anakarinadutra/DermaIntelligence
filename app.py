@@ -125,7 +125,7 @@ country = st.sidebar.text_input(L["country"])
 # 🧠 MAIN INTERFACE
 # =========================================================
 
-st.title("🧠 DermaIntelligence™ PRO")
+st.title("🧠 DermaIntelligence™")
 st.caption("Clinical • Scientific • Legal AI for Dermatology & Aesthetics")
 
 st.subheader(L["question"])
@@ -169,4 +169,5 @@ if st.button(L["button"]):
 
         st.info("📚 " + L["sources"])
         st.warning("⚠️ " + L["warning"])
+
 
