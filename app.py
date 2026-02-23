@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="DermaIntelligence™ PRO", layout="wide")
+st.set_page_config(page_title="DermaIntelligence™", layout="wide")
 
 # =========================================================
 # 🌍 GLOBAL LANGUAGE DATABASE
@@ -169,3 +169,4 @@ if st.button(L["button"]):
 
         st.info("📚 " + L["sources"])
         st.warning("⚠️ " + L["warning"])
+
